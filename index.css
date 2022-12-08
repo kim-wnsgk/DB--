@@ -75,6 +75,37 @@ a {
     border-radius: 20px;
 }
 
+.title {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.inner-contents {
+    border-bottom: 1px solid #cccccc;
+}
+
+.board-row {
+    display: flex;
+    text-align: center;
+}
+
+.board-row:first-child {
+    border-bottom: 1px solid #cccccc;
+}
+
+.fir {
+    flex: 1;
+    border-right: 1px dashed;
+}
+
+.board-row:first-child>.fir {
+    border-right: 0;
+}
+
+.sec {
+    flex: 4;
+}
+
 .schedule {
     flex: 1;
     background-color: whitesmoke;
@@ -95,7 +126,7 @@ a {
 
 .footer {
     color: white;
-    background-color: black;
+    background-color: rgb(27, 27, 27);
     position: absolute;
     width: 100%;
     bottom: 0;
